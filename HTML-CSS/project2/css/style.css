@@ -1,0 +1,239 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  position: relative;
+}
+
+nav{
+  position: absolute;
+  width: 100%;
+  padding: 0 70px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 850;
+  box-shadow: 0px 1px 3px grey;
+  img{
+    width: 90px;
+    height: 60px;
+  }
+
+  .right{
+    .profile{
+      img{
+        width: 70px;
+        height: 60px;
+      }
+    }
+
+    .nav-links{
+
+      ul{
+        .nav-link{
+          color: rgb(183, 177, 177);
+
+          &.active{
+            color: #008F93;
+          }
+  
+          &:hover{
+            color: #008F93;
+          }
+        }
+      }
+    }
+  }
+
+  .left{
+    .logo-text{
+      font-size: 1.4rem;
+    }
+  }
+}
+
+main{
+
+  height: 100vh;
+
+  .main-left{
+    width: 25%;
+    margin-top: 10%;
+    .tagline{
+      translate: 25% 0;
+      p{
+        font-size: 2.87rem;
+        font-family: "montserrat", sans-serif;
+        color: rgb(17, 17, 52);
+      }
+    }
+    .boats{
+      margin-top: 140px;
+      margin-left: 73px;
+      gap: 30%;
+      .boat-infos{
+        position: relative;
+        .boat-info{
+            padding: 0 0 0 10px;
+            height: 70px;
+            width: 250px;
+          &.active{
+            border-radius: 15px;
+            background-color: rgb(244, 243, 243);
+          p{
+            .heading{
+              color: rgb(8, 8, 8);              
+            }
+          }
+          }
+          p{
+            padding-left: 40px;
+            line-height: 25px;
+            span{
+              position: relative;
+              bottom: 20%;
+            };
+          }
+          
+        }
+        .boat-image{
+          position: absolute;
+          left: -15%;
+          img{
+            transform: rotate(-90deg);
+            height: 350px;
+            width: 100px;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+    
+  }
+
+  .main-middle{
+    width: 35%;
+
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .main-right{
+    width: 40%;
+    .main-right-wrap{
+      width: 100%;
+      .main-right-top{
+        padding: 0 50px 50px 50px;
+        margin-top: 82px;
+        background-color: var(--primary-color);
+        .top-text{
+          padding-top: 50px;
+          padding-left: 0;
+            .sub-text{
+              color: #706a6a;
+              span{
+                position: relative;
+                bottom: 25%;
+              }
+            }
+            
+          
+          }
+          
+        }
+        .top-cards{
+          .top-card{
+            width: 150px;
+            height: 150px;
+            border-radius: 15px;
+            background-color: rgb(255, 255, 255);
+            p{
+              text-align: center;
+            }
+
+            &.active{
+              box-shadow:2px 5px 10px #008F93;
+              color: rgb(255, 255, 255);
+              background-color:  #008F93;
+            }
+            .top-icon{
+              font-size: 1.5rem;
+              &.icon-car{
+                color: rgb(255, 200, 61);
+              }
+              &.icon-camera{
+                color: rgb(9, 223, 116);
+              }
+            }
+          }
+        }
+
+        .top-form{
+          .input-box{
+            p{
+              color: #008F93;
+              margin-bottom: 10px;
+            }
+            input{
+              position: relative;
+              float: left;
+              border: 1px solid #c8c3c3;
+              background-color: white;
+              height: 40px;
+              width: 90%;
+              padding: 0 10px;
+            }
+            i{
+              font-size: 1rem;
+              width:10%;
+              border:1px solid #c8c3c3 ;
+              border-left: none;
+              background-color: white;
+              color: #706a6a;
+              line-height: 39px;
+              text-align: center;
+            }
+
+            .input-side{
+              width: 100%;
+              }
+            }
+          }
+        }
+      }
+
+      .main-right-bottom{
+        padding:30px 45px;
+        .right-bottom-top{
+          span{
+            font-weight: lighter;
+            color:#706a6a;
+          }
+
+          i{
+            line-height: 40px;
+            background-color: rgb(244, 243, 243);
+            padding: 8px 15px;
+            border-radius: 10px;
+            color: #008F93;
+            font-size: 1.5rem;
+          }
+        }
+
+        .right-bottom-bottom{
+          button{
+            padding:20px 100px;
+            border: none;
+            background-color: rgb(251, 167, 31);
+            font-size: 1.125rem;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .form-box{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 90vh;
+    width: 60%;
+    background-color: rgb(171, 244, 244);
+    border-radius: 10px;
+    form{
+      margin-top: 50px;
+      input{
+        border: none;
+        border-bottom: 1px solid rgb(62, 101, 101);
+        height: 40px;
+        width: 500px;
+        background-color:rgb(171, 244, 244); 
+      }
+      input:focus{
+        outline: none;
+      }
+      select{
+        height: 40px;
+        border: none;
+        background-color:rgb(171, 244, 244) ;
+      }
+      select:focus{
+        outline: none;
+      }
+    
+      button{
+        height: 40px;
+        width: 40px;
+        margin-left: 20px;
+        border: none;
+        border-radius: 50%;
+        font-size: 30px;
+        text-align: center;
+        line-height: 40px;
+      }
+    }
+    .output{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      margin-top: 40px;
+      .output-box{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        .todo-title{
+          width: 80%;
+        }
+        .status-check{
+          width: 20%;
+          zoom: 1.5;
+        }
+
+      }
+    }
+  }
+}

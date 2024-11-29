@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/theme.css" />
+    <link rel="stylesheet" href="./css/vars.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+    />
+
+    <title>Frontend Mentor</title>
+  </head>
+  <body>
+    <header>
+      <!-- desktop menu starts -->
+
+      <div class="desktop-menu justify-around py-lg items-center">
+        <div>
+          <img
+            src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Flogo-desktop.svg&w=640&q=75"
+            alt="logo"
+            height="28"
+            width="192"
+            id="desktop-logo"
+          />
+          <img
+            src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Flogo-mobile.svg&w=64&q=75"
+            alt="logo"
+            width="31"
+            height="28"
+            id="tablet-logo"
+          />
+        </div>
+        <div class="flex items-center gap-lg">
+          <nav>
+            <ul class="list-none flex gap-md italic bold text-xs">
+              <li class="nav-links">LEARNING PATH</li>
+              <li class="nav-links">CHALLENGES</li>
+              <li class="nav-links">SOLUTIONS</li>
+              <li class="nav-links">ARTICLES</li>
+              <li class="nav-links">UNLOCK PRO</li>
+            </ul>
+          </nav>
+          <button class="btn primary text-xs italic bold">
+            LOG IN WITH GITHUB
+            <span><i class="fa-brands fa-github text-sm"></i></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- desktop menu ends -->
+    </header>
+
+    <!-- mobile menu starts -->
+    <div class="mobile-menu">
+      <div class="mobile-menu-header flex items-center justify-between p-lg">
+        <div>
+          <img
+            src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Flogo-mobile.svg&w=64&q=75"
+            alt="logo"
+            width="31"
+            height="28"
+          />
+        </div>
+        <div class="mobile-menu-button">
+          <i class="fa fa-bars text-2xl bar-icon"></i>
+          <i class="fa fa-times text-2xl close-icon"></i>
+        </div>
+      </div>
+      <div class="mobile-menu-body">
+        <ul class="px-lg list-none flex column gap-md">
+          <li
+            class="mobile-nav-links flex items-center gap-lg py-lg px-sm italic text-md bold"
+          >
+            <span><i class="fa-solid fa-arrow-trend-up"></i></span>
+            <span> LEARNING PATH</span>
+          </li>
+          <li
+            class="mobile-nav-links flex items-center gap-lg py-lg px-sm italic text-md bold"
+          >
+            <span><i class="fa-solid fa-laptop-file"></i></span>
+            <span>CHALLENGES</span>
+          </li>
+          <li
+            class="mobile-nav-links flex items-center gap-lg py-lg px-sm italic text-md bold"
+          >
+            <span><i class="fa-solid fa-code"></i></span> <span>SOLUTIONS</span>
+          </li>
+          <li
+            class="mobile-nav-links flex items-center gap-lg py-lg px-sm italic text-md bold"
+          >
+            <span><i class="fa-solid fa-newspaper"></i></span>
+            <span>ARTICLES</span>
+          </li>
+          <li
+            class="mobile-nav-links flex items-center gap-lg py-lg px-sm italic text-md bold"
+          >
+            <span><i class="fa-solid fa-unlock"></i></span>
+            <span>UNLOCK PRO</span>
+          </li>
+        </ul>
+        <div class="flex justify-center my-lg mx-lg">
+          <button
+            class="btn primary w-full italic bold flex items-center gap-sm justify-center"
+          >
+            <span class="text-md">LOG IN WITH GITHUB</span
+            ><span><i class="fa-brands fa-github text-md"></i></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- mobile menu ends -->
+
+    <!-- hero section starts -->
+    <section class="hero-section mx-lg flex column gap-xl">
+      <div class="flex column items-center gap-2xl hero">
+        <div
+          class="flex column items-center justify-center hero-left gap-2xl py-xl px-xl"
+        >
+          <div class="flex column gap-2xl hero-description">
+            <p class="text-2xl hero-heading text-secondary">
+              Improve your coding skills by building realistic projects
+            </p>
+            <p class="text-lg hero-subheading text-primary">
+              Our professionally designed challenges help you gain hands-on
+              experience writing HTML, CSS, and JavaScript. We create the
+              designs so you can focus on the code and see your skills
+              skyrocket!
+            </p>
+            <div>
+              <button
+                class="btn secondary flex gap-xl items-center italic bold text-md"
+              >
+                <span>LOG IN WITH GITHUB </span
+                ><span><i class="fa-brands fa-github text-xl"></i></span>
+              </button>
+            </div>
+          </div>
+          <div
+            class="flex column justify-center items-center hero-message gap-lg"
+          >
+            <div>
+              <img
+                src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhome-community-avatars.webp&w=750&q=100"
+                alt=""
+                id="join-us"
+              />
+            </div>
+            <div>
+              <p class="text-md">
+                Join <span class="text-primary bold">926,694</span> developers
+                building projects, reviewing code, and helping each other
+                improve.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image-box hero-right">
+          <img
+            src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhome-hero.webp&w=3840&q=75"
+            alt="hero"
+            id="hero-image"
+          />
+        </div>
+      </div>
+      <div class="hero-testimony flex column gap-lg items-center">
+        <div class="flex hero-testimony-box column items-center gap-xl">
+          <i
+            class="fa-solid fa-quote-left text-primary text-3xl text-primary"
+          ></i>
+          <p class="text-md text-center">
+            I highly recommend Frontend Mentor. Skip the search for project
+            ideas and dive into ready-made challenges that help you level up as
+            a developer.
+          </p>
+          <div>
+            <img
+              src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhome-avatar-kevin.webp&w=256&q=75"
+              alt=""
+            />
+          </div>
+          <div class="flex column items-center gap-sm">
+            <p class="text-secondary bold">KEVIN POWELL</p>
+            <p class="text-primary">Web Developer & Youtuber</p>
+          </div>
+        </div>
+        <div class="flex hero-testimony-box column items-center gap-xl">
+          <i
+            class="fa-solid fa-quote-left text-primary text-3xl text-primary"
+          ></i>
+          <p class="text-md text-center">
+            Frontend Mentor is a win-win. You can sharpen your skills building
+            websites and add finished projects to your portfolio to help land a
+            job!
+          </p>
+          <div>
+            <img
+              src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhome-avatar-jessica.webp&w=256&q=75"
+              alt=""
+            />
+          </div>
+          <div class="flex column items-center gap-sm">
+            <p class="text-secondary bold">JESSICA CHAN</p>
+            <p class="text-primary">Web Developer & Youtuber</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section ends -->
+
+    <!-- As featured on starts -->
+    <section>
+      <div class="flex column items-center gap-xl my-2xl">
+        <div>
+          <p class="text-md bold">AS FEATURED ON...</p>
+        </div>
+        <div class="flex column gap-xl as-featured">
+          <div class="as-featured-item flex justify-center items-center">
+            <img
+              src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Flogo-css-tricks.svg&w=640&q=75"
+              alt="css"
+            />
+          </div>
+          <div class="as-featured-item flex justify-center items-center">
+            <img
+              src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Flogo-stack-overflow.svg&w=640&q=75"
+              alt="stackoverflow"
+            />
+          </div>
+          <div class="as-featured-item flex justify-center items-center">
+            <img
+              src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Flogo-product-hunt.svg&w=640&q=75"
+              alt="producthunt"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- As featured on ends -->
+
+    <!-- midpage detail starts -->
+
+    <section>
+      <div class="flex column gap-lg">
+        <div class="midpage-detail flex column gap-2xl p-lg">
+          <div class="midpage-detail-image flex justify-center items-center">
+            <img
+              src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhome-benefit-1.webp&w=1920&q=75"
+              alt="1"
+            />
+          </div>
+          <div class="flex column gap-xl midpage-detail-content">
+            <div class="flex justify-center items-center emoji">
+              <p class="text-3xl">&#X1F608;</p>
+            </div>
+            <div class="flex column gap-lg">
+              <p class="text-xl">Escape tutorial hell</p>
+              <p class="text-primary text-md">
+                Add projects to your learning journey and put your knowledge to
+                the test. The real learning happens when you start solving
+                real-world problems yourself.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="midpage-detail flex column gap-2xl p-lg">
+          <div class="midpage-detail-image flex justify-center items-center">
+            <img
+              src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhome-benefit-2.webp&w=3840&q=75"
+              alt="1"
+            />
+          </div>
+          <div class="flex column gap-xl midpage-detail-content">
+            <div class="flex justify-center items-center emoji">
+              <p class="text-3xl">&#X1F929;</p>
+            </div>
+            <div class="flex column gap-lg">
+              <p class="text-xl">Build portfolio-worthy projects</p>
+              <p class="text-primary text-md">
+                Design is hard. We take care of the project ideas and design so
+                you can focus on the coding. You’ll end up with an incredible
+                portfolio of stunning projects!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="midpage-detail flex column gap-2xl p-lg">
+          <div class="midpage-detail-image flex justify-center items-center">
+            <img
+              src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhome-benefit-3.webp&w=1920&q=75"
+              alt="1"
+            />
+          </div>
+          <div class="flex column gap-xl midpage-detail-content">
+            <div class="flex justify-center items-center emoji">
+              <p class="text-3xl">&#X1F680;</p>
+            </div>
+            <div class="flex column gap-lg">
+              <p class="text-xl">Banish impostor syndrome</p>
+              <p class="text-primary text-md">
+                We’ve all felt out of our depth before. Getting hands-on
+                experience is an incredible way to build confidence, refine your
+                workflow, and supercharge your learning.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="midpage-detail flex column gap-2xl p-lg">
+          <div class="midpage-detail-image flex justify-center items-center">
+            <img
+              src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhome-benefit-4.webp&w=3840&q=75"
+              alt="1"
+            />
+          </div>
+          <div class="flex column gap-xl midpage-detail-content">
+            <div class="flex justify-center items-center emoji">
+              <p class="text-3xl">&#x1F6E0;&#xFE0F;</p>
+            </div>
+            <div class="flex column gap-lg">
+              <p class="text-xl">Practice new tools</p>
+              <p class="text-primary text-md">
+                The front-end landscape changes constantly. Our design-led
+                challenges let you pick your tools to help you adapt,
+                experiment, and keep up with the latest trends.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="midpage-detail flex column gap-2xl p-lg">
+          <div class="midpage-detail-image flex justify-center items-center">
+            <img
+              src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhome-benefit-5.webp&w=3840&q=75"
+              alt="1"
+            />
+          </div>
+          <div class="flex column gap-xl midpage-detail-content">
+            <div class="flex justify-center items-center emoji">
+              <p class="text-3xl">&#X1F91D;</p>
+            </div>
+            <div class="flex column gap-lg">
+              <p class="text-xl">Create job opportunities</p>
+              <p class="text-primary text-md">
+                We have a <u>Hiring Platform</u> that runs alongside this
+                platform. Just by building projects and engaging with the
+                community, you could open up job opportunities!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- midpage detail ends -->
+
+    <!-- how it works starts -->
+
+    <section>
+      <div
+        class="flex column justify-center items-center gap-sm how-it-works-box"
+      >
+        <div class="how-it-works-image">
+          <div class="flex justify-center items-center">
+            <img
+              src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhome-how-it-works-1.webp&w=3840&q=100"
+              alt="howitworks"
+              id="how-it-works-image"
+            />
+          </div>
+        </div>
+        <div
+          class="flex justify-center items-center my-lg how-it-works-content"
+        >
+          <div class="flex column justify-center items-center gap-lg w-full">
+            <div><p class="text-2xl semi-bold">How it works</p></div>
+            <ul
+              class="list-none flex column items-center justify-center gap-lg w-full"
+            >
+              <li
+                data-image="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhome-how-it-works-1.webp&w=3840&q=100"
+                class="px-xl py-sm how-it-works flex column justify-center w-full"
+              >
+                <div class="flex gap-lg items-center">
+                  <div class="bullet flex justify-center items-center">
+                    <p class="text-md bold italic">1</p>
+                  </div>
+                  <p class="semi-bold text-md">Choose your challenge</p>
+                </div>
+                <div class="how-it-works-detail">
+                  <p>
+                    Browse our collection of professionally designed projects.
+                    Pick one that suits the level you’re currently at.
+                  </p>
+                </div>
+              </li>
+              <li
+                data-image="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhome-how-it-works-2.webp&w=3840&q=100"
+                class="px-xl py-sm how-it-works flex column justify-center"
+              >
+                <div class="flex gap-lg items-center">
+                  <div class="bullet flex justify-center items-center">
+                    <p class="text-md bold italic">2</p>
+                  </div>
+                  <p class="semi-bold text-md">Code the design</p>
+                </div>
+                <div class="how-it-works-detail">
+                  <p>
+                    Each project comes with all files included. This means you
+                    can focus on coding the project using the design as a
+                    reference.
+                  </p>
+                </div>
+              </li>
+              <li
+                data-image="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhome-how-it-works-3.webp&w=3840&q=100"
+                class="px-xl py-sm how-it-works flex column justify-center"
+              >
+                <div class="flex gap-lg items-center">
+                  <div class="bullet flex justify-center items-center">
+                    <p class="text-md bold italic">3</p>
+                  </div>
+                  <p class="semi-bold text-md">Submit your design</p>
+                </div>
+                <div class="how-it-works-detail">
+                  <p>
+                    Get feedback from the community about your code and see how
+                    close you got to the design.
+                  </p>
+                </div>
+              </li>
+              <li
+                data-image="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhome-how-it-works-4.webp&w=3840&q=100"
+                class="px-xl py-sm how-it-works flex column justify-center"
+              >
+                <div class="flex gap-lg items-center">
+                  <div class="bullet flex justify-center items-center">
+                    <p class="text-md bold italic">4</p>
+                  </div>
+                  <p class="semi-bold text-md">Give others feedback</p>
+                </div>
+                <div class="how-it-works-detail">
+                  <p>
+                    Reviewing other people’s code is a vital part of being a
+                    developer. Practice giving code reviews and help others
+                    improve.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- how it works ends -->
+
+    <!-- midpage subscription starts -->
+
+    <section>
+      <div class="flex column justify-center items-center w-full midpage-sub">
+        <div
+          class="midpage-sub-top flex column justify-center items-center gap-md"
+        >
+          <div class="text-lg semi-bold text-center midpage-sub-top-heading">
+            <p>
+              Take your skills to the next level with our
+              <span class="highlight py-xs px-sm bold">PRO</span> subscription
+            </p>
+          </div>
+          <div
+            class="text-md text-primary text-center midpage-sub-top-subheading"
+          >
+            <p>
+              Step into the shoes of a professional developer and build projects
+              in the most realistic way possible. Our Pro subscription will help
+              you prepare for life as a professional developer.
+            </p>
+          </div>
+        </div>
+        <div
+          class="midpage-sub-middle flex column justify-center items-center gap-lg"
+        >
+          <div class="midpage-sub-card flex column gap-lg items-center">
+            <div class="midpage-sub-card-icon">
+              <i class="fa-brands fa-figma text-secondary"></i>
+            </div>
+            <div class="midpage-sub-card-heading text-lg text-center semi-bold">
+              <p>Access each challenge’s design file</p>
+            </div>
+            <div clas="midpage-sub-card-detail">
+              <p class="text-md text-primary text-center">
+                Professional teams use tools like Figma. By using these tools
+                when building projects, you’ll save time, create more accurate
+                solutions, and gain hands-on experience working like a pro.
+              </p>
+            </div>
+          </div>
+          <div class="midpage-sub-card flex column gap-lg items-center">
+            <div class="midpage-sub-card-icon">
+              <i class="fa-regular fa-star text-secondary"></i>
+            </div>
+            <div class="midpage-sub-card-heading text-lg text-center semi-bold">
+              <p>Tackle our premium challenges</p>
+            </div>
+            <div clas="midpage-sub-card-detail">
+              <p class="text-md text-primary text-center">
+                Our premium challenges are the most realistic, comprehensive
+                practice projects you’ll find. They also make incredible
+                portfolio pieces to help you “wow!” recruiters and get hired.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="midpage-sub-bottom">
+          <button class="btn secondary italic bold text-md">
+            LEARN ABOUT PRO
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- midpage subscription ends -->
+
+    <!-- testimonial starts -->
+
+    <section class="flex justify-center items-center">
+      <div class="testimonial flex justify-center items-center">
+        <div class="testimonial-box">
+          <div class="testimonial-heading">
+            <p class="text-2xl semi-bold">
+              A little <span>❤️</span> from our community
+            </p>
+          </div>
+          <div class="flex gap-md testimonial-nav">
+            <i
+              class="fa-solid fa-circle-arrow-left text-3xl text-primary"
+              id="prev"
+            ></i>
+            <i
+              class="fa-solid fa-circle-arrow-right text-3xl text-secondary"
+              id="next"
+            ></i>
+          </div>
+          <div class="testimonial-bottom flex justify-center items-center">
+            <div class="testimonial-slider flex justify-start items-center">
+              <div class="testimonial-slide flex column justify-center gap-xl">
+                <div class="testimonial-content">
+                  <p class="text-md text-primary">
+                    This platform provides everything developers need to improve
+                    their skills. The community is great, and the challenges
+                    keep me motivated, instill accountability through regular
+                    submissions, and allow me to build a professional portfolio
+                    by showcasing diverse projects.
+                  </p>
+                </div>
+                <div class="flex items-center gap-md testimonial-author">
+                  <div class="testimonial-image">
+                    <img
+                      src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhome-avatar-francesca.webp&w=128&q=75"
+                      alt="testimony"
+                    />
+                  </div>
+                  <div class="flex column justify-center gap-sm">
+                    <div>
+                      <p class="text-md text-secondary bold">Francesca</p>
+                    </div>
+                    <div>
+                      <p class="text-md text-primary">@frrann</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-slide flex column justify-center gap-xl">
+                <div>
+                  <p class="text-md text-primary">
+                    Frontend Mentor eliminated the hurdle of sourcing designs,
+                    letting me focus on development. Their professional
+                    projects, especially in the Pro subscription, challenge me
+                    to create complex, multi-page websites. With a supportive
+                    community and feedback from advanced programmers, my skills
+                    have been elevated to new heights.
+                  </p>
+                </div>
+                <div class="flex items-center gap-md testimonial-author">
+                  <div class="testimonial-image">
+                    <img
+                      src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhome-avatar-alfie.webp&w=128&q=75"
+                      alt="testimony"
+                    />
+                  </div>
+                  <div class="flex column justify-center gap-sm">
+                    <div>
+                      <p class="text-md text-secondary bold">Alfie</p>
+                    </div>
+                    <div>
+                      <p class="text-md text-primary">@alfiemitechell123</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-slide flex column justify-center gap-xl">
+                <div>
+                  <p class="text-md text-primary">
+                    Frontend Mentor transformed me from a newbie to a
+                    professional developer, enabling me to create flawless,
+                    responsive, accessible websites. It’s a superb platform for
+                    feedback with a supportive community backing your growth.
+                    Through it, I evolved from a frontend to a full-stack
+                    developer.
+                  </p>
+                </div>
+                <div class="flex items-center gap-md testimonial-author">
+                  <div class="testimonial-image">
+                    <img
+                      src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhome-avatar-hikmah.webp&w=128&q=75"
+                      alt="testimony"
+                    />
+                  </div>
+                  <div class="flex column justify-center gap-sm">
+                    <div>
+                      <p class="text-md text-secondary bold">Hikmah</p>
+                    </div>
+                    <div>
+                      <p class="text-md text-primary">@HikmahX</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-slide flex column justify-center gap-xl">
+                <div>
+                  <p class="text-md text-primary">
+                    Frontend Mentor has helped tremendously. Working on the
+                    newbie challenges really helped me get better at building
+                    layouts. Also, it increased my JavaScript skills. Working
+                    with APIs, DOM manipulation, and so on greatly increased my
+                    knowledge. Would totally recommend it.
+                  </p>
+                </div>
+                <div class="flex items-center gap-md testimonial-author">
+                  <div class="testimonial-image">
+                    <img
+                      src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhome-avatar-nuel.webp&w=128&q=75"
+                      alt="testimony"
+                    />
+                  </div>
+                  <div class="flex column justify-center gap-sm">
+                    <div>
+                      <p class="text-md text-secondary bold">Nuel</p>
+                    </div>
+                    <div>
+                      <p class="text-md text-primary">@ijklmopffs</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-slide flex column justify-center gap-xl">
+                <div>
+                  <p class="text-md text-primary">
+                    This platform provides everything developers need to improve
+                    their skills. The community is great, and the challenges
+                    keep me motivated, instill accountability through regular
+                    submissions, and allow me to build a professional portfolio
+                    by showcasing diverse projects.
+                  </p>
+                </div>
+                <div class="flex items-center gap-md testimonial-author">
+                  <div class="testimonial-image">
+                    <img
+                      src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhome-avatar-francesca.webp&w=128&q=75"
+                      alt="testimony"
+                    />
+                  </div>
+                  <div class="flex column justify-center gap-sm">
+                    <div>
+                      <p class="text-md text-secondary bold">Francesca</p>
+                    </div>
+                    <div>
+                      <p class="text-md text-primary">@frrann</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-slide flex column justify-center gap-xl">
+                <div>
+                  <p class="text-md text-primary">
+                    This platform provides everything developers need to improve
+                    their skills. The community is great, and the challenges
+                    keep me motivated, instill accountability through regular
+                    submissions, and allow me to build a professional portfolio
+                    by showcasing diverse projects.
+                  </p>
+                </div>
+                <div class="flex items-center gap-md testimonial-author">
+                  <div class="testimonial-image">
+                    <img
+                      src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhome-avatar-francesca.webp&w=128&q=75"
+                      alt="testimony"
+                    />
+                  </div>
+                  <div class="flex column justify-center gap-sm">
+                    <div>
+                      <p class="text-md text-secondary bold">Francesca</p>
+                    </div>
+                    <div>
+                      <p class="text-md text-primary">@frrann</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-slide flex column justify-center gap-xl">
+                <div>
+                  <p class="text-md text-primary">
+                    This platform provides everything developers need to improve
+                    their skills. The community is great, and the challenges
+                    keep me motivated, instill accountability through regular
+                    submissions, and allow me to build a professional portfolio
+                    by showcasing diverse projects.
+                  </p>
+                </div>
+                <div class="flex items-center gap-md testimonial-author">
+                  <div class="testimonial-image">
+                    <img
+                      src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhome-avatar-francesca.webp&w=128&q=75"
+                      alt="testimony"
+                    />
+                  </div>
+                  <div class="flex column justify-center gap-sm">
+                    <div>
+                      <p class="text-md text-secondary bold">Francesca</p>
+                    </div>
+                    <div>
+                      <p class="text-md text-primary">@frrann</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonial ends -->
+
+    <!-- FAQs starts -->
+
+    <section>
+      <div class="faq flex column items-center justify-center gap-3xl w-full">
+        <div class="faq-heading">
+          <p class="text-xl semi-bold">FAQs</p>
+        </div>
+        <div
+          class="faq-body flex column items-center justify-center w-full gap-xl"
+        >
+          <div class="faq-block flex column justify-center items-center">
+            <div class="faq-question flex justify-between items-center">
+              <div class="faq-question-left text-md semi-bold">
+                <p>Is it free?</p>
+              </div>
+              <div class="faq-question-right text-md semi-bold">
+                <span class="faq-open"><i class="fa-solid fa-plus"></i></span>
+                <span class="faq-close hide"
+                  ><i class="fa-solid fa-minus"></i
+                ></span>
+              </div>
+            </div>
+            <div class="faq-answer text-primary hide">
+              <p>
+                The majority of our challenges are free, yes. We do have some
+                that are premium and require a Pro subscription to access. It
+                will say on each challenge whether they are free or premium, so
+                it's easy to tell the difference.
+              </p>
+            </div>
+          </div>
+          <div class="faq-block flex column justify-center items-center">
+            <div class="faq-question flex justify-between items-center">
+              <div class="faq-question-left text-md semi-bold">
+                <p>Can I use these projects in my portfolio?</p>
+              </div>
+              <div class="faq-question-right text-md semi-bold">
+                <span class="faq-open"><i class="fa-solid fa-plus"></i></span>
+                <span class="faq-close hide"
+                  ><i class="fa-solid fa-minus"></i
+                ></span>
+              </div>
+            </div>
+            <div class="faq-answer text-primary hide">
+              <p>
+                Definitely! Please do feel free to use whatever you build in
+                your portfolio. Helping developers add professional-looking
+                projects to their portfolio was one of the reasons we created
+                this platform!
+              </p>
+            </div>
+          </div>
+          <div class="faq-block flex column justify-center items-center">
+            <div class="faq-question flex justify-between items-center">
+              <div class="faq-question-left text-md semi-bold">
+                <p>Can I take the challenges as a beginner?</p>
+              </div>
+              <div class="faq-question-right text-md semi-bold">
+                <span class="faq-open"><i class="fa-solid fa-plus"></i></span>
+                <span class="faq-close hide"
+                  ><i class="fa-solid fa-minus"></i
+                ></span>
+              </div>
+            </div>
+            <div class="faq-answer text-primary hide">
+              <p>
+                For sure! Our challenges have five different levels of
+                difficulty. We'd recommend starting with the newbie ones. You
+                might also want to start with the HTML & CSS only challenges
+                first. As you build up your skills and confidence, you can take
+                on more complex projects.
+              </p>
+            </div>
+          </div>
+          <div class="faq-block flex column justify-center items-center">
+            <div class="faq-question flex justify-between items-center">
+              <div class="faq-question-left text-md semi-bold">
+                <p>How do I start?</p>
+              </div>
+              <div class="faq-question-right text-md semi-bold">
+                <span class="faq-open"><i class="fa-solid fa-plus"></i></span>
+                <span class="faq-close hide"
+                  ><i class="fa-solid fa-minus"></i
+                ></span>
+              </div>
+            </div>
+            <div class="faq-answer text-primary hide">
+              <p>
+                You can see all of our challenges here. To start a challenge,
+                click the "Start Challenge" button on the challenge page. This
+                will take you to the Challenge Hub, where you can download the
+                starter files, including a README file which will help you get
+                set up. We'd recommend starting with one of our newbie level
+                challenges. You can then work your way up from there.
+              </p>
+            </div>
+          </div>
+          <div class="faq-block flex column justify-center items-center">
+            <div class="faq-question flex justify-between items-center">
+              <div class="faq-question-left text-md semi-bold">
+                <p>How can I get help if I'm stuck on a challenge?</p>
+              </div>
+              <div class="faq-question-right text-md semi-bold">
+                <span class="faq-open"><i class="fa-solid fa-plus"></i></span>
+                <span class="faq-close hide"
+                  ><i class="fa-solid fa-minus"></i
+                ></span>
+              </div>
+            </div>
+            <div class="faq-answer text-primary hide">
+              <p>
+                The best (and quickest) way to get help on a challenge is in our
+                Discord server. There are thousands of other developers in
+                there, so it's a great place to ask questions. We even have a
+                dedicated "help" channel! If you haven't joined yet, you can get
+                an invite to our Discord server here.
+              </p>
+            </div>
+          </div>
+          <div class="faq-block flex column justify-center items-center">
+            <div class="faq-question flex justify-between items-center">
+              <div class="faq-question-left text-md semi-bold">
+                <p>Can I use libraries/frameworks on these projects?</p>
+              </div>
+              <div class="faq-question-right text-md semi-bold">
+                <span class="faq-open"><i class="fa-solid fa-plus"></i></span>
+                <span class="faq-close hide"
+                  ><i class="fa-solid fa-minus"></i
+                ></span>
+              </div>
+            </div>
+            <div class="faq-answer text-primary hide">
+              <p>
+                Yes! Our challenges provide professional designs but there are
+                no rules on what tools to use. So feel free to use anything you
+                like to build your projects.
+              </p>
+            </div>
+          </div>
+          <div class="faq-block flex column justify-center items-center">
+            <div class="faq-question flex justify-between items-center">
+              <div class="faq-question-left text-md semi-bold">
+                <p>Am I guaranteed to get hired through Hiring Platform?</p>
+              </div>
+              <div class="faq-question-right text-md semi-bold">
+                <span class="faq-open"><i class="fa-solid fa-plus"></i></span>
+                <span class="faq-close hide"
+                  ><i class="fa-solid fa-minus"></i
+                ></span>
+              </div>
+            </div>
+            <div class="faq-answer text-primary hide">
+              <p>
+                We can’t offer any guarantees, unfortunately. You can showcase
+                your skills and knowledge to recruiters on our Hiring Platform
+                by completing challenges and engaging with the community. This
+                may lead to job opportunities, but it also may not. We still
+                recommend applying for jobs using traditional channels like job
+                boards.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQs ends -->
+
+    <!-- join us starts -->
+
+    <section>
+      <div class="join-us flex justify-center items-center">
+        <div
+          class="join-us-core flex column items-center justify-center gap-2xl"
+        >
+          <div
+            class="join-us-heading text-2xl text-secondary semi-bold text-center"
+          >
+            <p>Join 928,602 people building portfolio-worthy projects</p>
+          </div>
+          <div class="join-us-subheading text-primary text-md text-center">
+            <p>
+              Our highly supportive, positive community is here to help you
+              improve your skills. We all try to help each other out wherever
+              possible. We’d love to welcome you to our community!
+            </p>
+          </div>
+          <div>
+            <button class="btn secondary text-sm semi-bold italic">
+              LOG IN WITH GITHUB
+              <span><i class="fa-brands fa-github"></i></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- join us ends -->
+
+    <!-- hiring starts -->
+
+    <section>
+      <div class="hiring w-full flex justify-center items-center h-full">
+        <div class="hiring-core flex column justify-center gap-xl h-full">
+          <div
+            class="hiring-content flex column items-center justify-center gap-2xl h-full"
+          >
+            <div
+              class="hiring-heading text-xl text-white semi-bold text-center"
+            >
+              <p>Are you looking to hire talented, passionate developers?</p>
+            </div>
+            <div class="hiring-subheading text-md text-white text-center">
+              <p>
+                Our Hiring Platform helps you connect with our diverse community
+                of talented early-career developers. Stop wading through
+                hundreds of resumes and get chatting to skilled developers in
+                minutes.
+              </p>
+            </div>
+            <div>
+              <button class="btn normal italic semi-bold text-md">
+                START HIRING DEVELOPERS
+              </button>
+            </div>
+          </div>
+          <div class="hiring-image">
+            <img
+              src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Fhome-hiring.webp&w=1080&q=100"
+              alt="hiring"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- hiring ends -->
+
+    <!-- footer starts-->
+
+    <footer>
+      <div class="flex column justify-start items-center gap-2xl w-full">
+        <div class="social flex justify-between items-center gap-lg">
+          <div>
+            <img
+              src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Flogo-desktop.svg&w=256&q=75"
+              alt="logo"
+            />
+          </div>
+          <div>
+            <div class="social-icons flex items-center gap-md">
+              <i class="fa-brands fa-discord text-lg"></i>
+              <i class="fa-brands fa-twitter text-lg"></i>
+              <i class="fa-brands fa-linkedin text-lg"></i>
+              <i class="fa-brands fa-facebook text-lg"></i>
+            </div>
+          </div>
+        </div>
+        <div class="flex column items-start gap-xl w-full p-lg subs-nav">
+          <div class="subscribe flex column gap-sm">
+            <div class="subscribe-heading text-lg text-secondary semi-bold">
+              <p>Stay upto date</p>
+            </div>
+            <div class="subscribe-subheading text-md text-primary">
+              <p>
+                with new challenges, featured solutions, selected articles and
+                our latest news
+              </p>
+            </div>
+            <div class="subscribe-input flex gap-sm items-center">
+              <input type="text" placeholder="email@example.com" class="text-md"/>
+              <button class="btn secondary semi-bold italic">SUBSCRIBE</button>
+            </div>
+          </div>
+          <div class="footer-nav flex column gap-2xl">
+            <div class="footer-nav-one flex gap-3xl h-full">
+              <div class="footn-nav-block flex column gap-md">
+                <div class="footer-nav-heading bold text-md">
+                  <p>FRONTEND MENTOR</p>
+                </div>
+                <div class="flex column text-primary text-md gap-sm">
+                  <p>Unlock Pro</p>
+                  <p>Contact Us</p>
+                  <p>FAQs</p>
+                </div>
+              </div>
+              <div class="footn-nav-block flex column gap-md">
+                <div class="footer-nav-heading text-md bold">
+                  <p>EXPLORE</p>
+                </div>
+                <div class="flex column text-primary text-md gap-sm">
+                  <p>Learning paths</p>
+                  <p>Challenges</p>
+                  <p>Solutions</p>
+                  <p>Articles</p>
+                </div>
+              </div>
+            </div>
+            <div class="footer-nav-two flex gap-3xl h-full">
+              <div class="footn-nav-block flex column gap-md">
+                <div class="footer-nav-heading text-md bold">
+                  <p>COMMUNITY</p>
+                </div>
+                <div class="flex column gap-sm text-md text-primary">
+                  <p>Discord</p>
+                  <p>Guidelines</p>
+                </div>
+              </div>
+              <div class="footn-nav-block flex column gap-md">
+                <div class="footer-nav-heading text-md bold">
+                  <p>FOR COMPANIES</p>
+                </div>
+                <div class="flex column gap-sm text-md text-primary">
+                  <p>Hire developers</p>
+                  <p>Train developers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- page bottom -->
+       <div class="flex items-center justify-center page-bottom">
+        <div class="page-bottom-wrapper flex column justify-start gap-sm">
+          <div class="text-sm text-primary">
+            <p>&copy; Frontend Mentor 2019 - 2024</p>
+          </div>
+          <div class="flex items-center gap-lg text-sm text-primary">
+            <p>Terms</p>
+            <p>Cookie Policy</p>
+            <p>Privacy Policy</p>
+            <p>License</p>
+          </div>
+        </div>
+        
+       </div>
+    </footer>
+
+    <!-- footer ends -->
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+.btn{
+    background: transparent;
+    border:none;
+    border-radius: 55px;
+    padding: 13px 30px;
+    cursor: pointer;
+    word-spacing: 3px;
+    &.primary{
+        background:var(--primary-color);
+        color:white;
+    }
+    &.primary:hover{
+        background-color: #394246;
+    }
+    
+    &.secondary{
+        background:var(--secondary-color);
+        color:white;
+    }
+
+    &.secondary:hover{
+        background-color: #D3122F;
+    }
+
+    &.outline{
+        border:1px solid black;
+        color:black;
+    }
+
+    &.normal{
+        background-color: #ffffff;
+        color: var(--primary-color);
+    }
+}
+
+.bold{
+    font-weight: bold;
+}
+.semi-bold{
+    font-weight: 500;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.text-primary{
+    color: #8b8989;
+}
+
+.text-secondary{
+    color: #3E54A3;
+}
+
+.text-xs{
+    font-size: 0.95rem;
+}
+
+.text-sm{
+    font-size: 1rem;
+}
+
+.text-md{
+    font-size: 1.2rem;
+}
+
+.text-lg{
+    font-size: 1.44rem;
+}
+
+.text-lg{
+    font-size: 1.728rem;
+}
+
+.text-xl{
+    font-size: 2.074rem;
+}
+
+.text-2xl{
+    font-size: 2.488rem;
+}
+
+.text-3xl{
+    font-size: 2.986rem;
+}
+
+
+.text-white{
+    color: white;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* lists */
+
+.list-none{
+    list-style: none;
+}
+
+.bg-primary{
+    background: var(--primary-color);
+}
+
+.bg-secondary{
+    background: var(--secondary-color);
+}
+
+.bg-tiles{
+    background: #f9f9f9;
+}
+
+
+
+

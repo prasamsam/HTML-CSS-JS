@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/theme.css">
+  <link rel="stylesheet" href="./css/vars.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="main flex column justify-center items-center">
+    <div class="top flex justify-center items-center">
+      <span id="display"></span>
+    </div>
+      <div class="bottom">
+        <div class="inner-core flex column justify-center items-center">
+          <div class="buttons flex justify-center items-center gap-sm">
+              <span class="first-row" onclick="reset()">Ac</span>
+              <span class="first-row">Del</span>
+              <span class="first-row" onclick="calculateData('%')">%</span>
+              <span class="special-button" onclick="calculateData('/')">/</span>
+          </div>
+          <div class="buttons flex justify-center items-center gap-sm">
+              <span class="ind-button" onclick="calculateData('7')">7</span>
+              <span class="ind-button" onclick="calculateData('8')">8</span>
+              <span class="ind-button" onclick="calculateData('9')">9</span>
+              <span class="ind-button special-button" onclick="calculateData('*')">*</span>
+          </div>
+          <div class="buttons flex justify-center items-center gap-sm">
+              <span class="ind-button" onclick="calculateData('4')">4</span>
+              <span class="ind-button" onclick="calculateData('5')">5</span>
+              <span class="ind-button" onclick="calculateData('6')">6</span>
+              <span class="ind-button special-button" onclick="calculateData('-')">-</span>
+          </div>
+          <div class="buttons flex justify-center items-center gap-sm">
+              <span class="ind-button" onclick="calculateData('1')">1</span>
+              <span class="ind-button" onclick="calculateData('2')">2</span>
+              <span class="ind-button" onclick="calculateData('3')">3</span>
+              <span class="ind-button special-button" onclick="calculateData('+')">+</span>
+          </div>
+          <div class="buttons flex justify-center items-center gap-sm">
+              <span class="ind-button" onclick="calculateData('00')">00</span>
+              <span class="ind-button" onclick="calculateData('0')">0</span>
+              <span class="ind-button special-button" onclick="calculateData('.')">.</span>
+              <span class="ind-button special-button" onclick="totalValue()">=</span>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
